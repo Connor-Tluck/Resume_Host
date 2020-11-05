@@ -1,0 +1,222 @@
+corridors<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Resume - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet" />
+
+
+
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Connor Tluck</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/static/profile.jpg" alt="" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#software-projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Connor
+                        <span class="text-primary">Tluck</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        215 East 3rd Street · New York, NY 10009 · (860) 573-6377 ·
+                        <a href="mailto:tluckconnor@gmail.com">tluckconnor@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">Civil Engineer with a passion for code in all forms.
+                      I believe in software and its ability to drive massive change across industry sectors. Data
+                      driven decision making, AI modeling and general full stack deployments will
+                      always offer an edge on more conventional business workflows when applied in the correct way.
+                      Currently, it is my goal to push these technologies where applicable in the world of transportation engineering,
+                      assisting designers and departments to optimize design and increase value proposition on projects before, during
+                      and after construction.
+                      </p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/connor-tluck/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/Connor-Tluck"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Software Projects-->
+            <section class="resume-section" id="software-projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Software Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Roadway Construction Survey Shot Geometry Fit</h3>
+                            <div class="subheading mb-3">Personal Project</div>
+                            <p>Current roadway design is done by shooting a digital survey which is visually interpreted by designers. Designers reference manuals to develop all aspects of roadway design per the scope of the project.
+                            By treating the survey shot data as the database that it is, designs may be able to be automated using established design criteria and various machine learning elements from built in python packages. Fitting program takes survey centerline shot data, classifies it as a curve shot or a tangent shot,
+                          then best fits curve and tangent geometry to the points, generating clean data tied to the best fit geometry. Further development will be to develop proposed roadway coorridors and evaluate for cost and safety. Following steps will be to iteratively generate designs and evaluate for optimal design.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Diabetic Diagnosis Modeling</h3>
+                            <div class="subheading mb-3">Personal Project</div>
+                            <p>Created a model using scikit learn module in which a dataset of patient information was fit to a predictive diagnosis model.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">CitiBike Ride Analysis and Mapping</h3>
+                            <div class="subheading mb-3">Personal Project</div>
+                            <p>NYC Citibike posts all user data to table formats with start/stop ride location data as well as trip duration, start and stop time. I downloaded my data for my first year in Manhattan. I plugged my data into the Google Directions API in order to create estimated trip routes. I then mapped those routes onto a folium map of Manhattan to see the scope of my trips that year.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Big Five Personality Test Analysis</h3>
+                            <div class="subheading mb-3">Personal Project</div>
+                            <p>Quick Data Analysis project to evaluate a dataset of personality test answers and look for correlation between traits by participant.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Journal Word Cloud Analysis</h3>
+                            <div class="subheading mb-3">Personal Project</div>
+                            <p>Personal Project in which I downloaded all journal entries over the last few years of my life. I began keeping a journal on and off when my father was diagnosed with cancer as a tool to self manage some of the emotional ups and downs at the time. I fed the text data into a regular expression library and created word clouds to look at trends of word frequency. I think this sort of expression analysis has utility in patient treatment for therapy session evaluations to be linked to real patient data rather than deferring only to therapist expertise.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">HDR</h3>
+                            <div class="subheading mb-3">Transportation Engineer</div>
+                            <ol>
+                            <li>Kew Gardens Interchange Design Build - MOT team member. Worked on a two person team to design and submit a  ve stage MOT plan on a complex interchange in Queens NY. This process required constant coordination with drainage, lighting, ITS and retaining wall designers in order to assure all disciplines were construable.</li>
+                            <li>Hampton Roads Bridge - Drainage Design Team. Established Permanent and Temporary Drainage systems while coordinating with inter-discipline design teams to meet required standards.</li>
+                          </ol>
+                          </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2018 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">HW Lochner</h3>
+                            <div class="subheading mb-3">Transportation Engineer</div>
+                            <ol>
+                              <li> Designed horizontal and vertical geometry for proposed roadways. Geometry was matched with design of proposed super elevation for traveled way and always made an e ort to take into consideration design standards outlined by the DOT</li>
+                              <li>Established temporary staging for use during the construction phase in the form of pavement markings and temporary barriers. During this design phase, collaboration was essential with the rest of the design team and structures teams to ensure that all construction tasks could be conducted in an order that optimized time of construction, ease and cost.</li>
+                              <li>Incorporated work share e orts, working locally for two weeks in Salt Lake City, to help hit important deadlines on high pro le 405 widening project. Also was able to bring back valuable intero ce operations knowledge.</li>
+                              <li>Developed realistic cost estimates using the DOT estimator software to establish what our contractors could expect to bid. Upon completion, the estimate was analyzed to assure the resources denoted in design were the most cost effective choices and consistent with expectations.</li>
+                            </ol>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2016 - September 2018</span></div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">University of Connecticut</h3>
+                            <div class="subheading mb-3">Bachelor of Science</div>
+                            <div>Civil Engineering</div>
+                            <p></p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2012 - December 2016</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-5">Udemy</h3>
+                            <div class="subheading mb-0">Complete Python Bootcamp</div>
+                            <div class="subheading mb-0">Complete SQL Bootcamp</div>
+                            <div class="subheading mb-0">Data Science Bootcamp </div>
+                            <p></p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2019 - June 2020</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Python backend applications
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Python data analysis and machine learning model design
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Basic flask deployments
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>Apart from a drive for learning and self teaching programming I stay active with soccer and softball teams. In the winter I love to snowboard. I also mix in competitive paintball after playing for Uconn all four years of college. </p>
+                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
